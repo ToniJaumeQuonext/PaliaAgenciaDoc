@@ -45,7 +45,7 @@ En la tarifa se definen los precios de venta que aplican a los circuitos que ven
 
 El campo **Activo** se mantiene automáticamente mientras se introduce la informacion en el precio (el programa comprueba que no se produzcan solapamientos). Un precio sin la marca de Activo es como si no existiera a efectos del cálculo del circuito. Se puede forzar la comprobación de un precio utilizando la opción **Activar** del botón **Tarifas**.
 
-## Definir hoteles
+## Definir hoteles {#HotelesTarifaVenta}
 
 Para cada combinación de **Circuito** y **Categoria** se va a crear un itinerario de hoteles en los que se alojarán los clientes durante el circuito.
 
