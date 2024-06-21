@@ -28,6 +28,24 @@ Cuando obtengamos la confirmación de las reservas, por parte del hotel, tenemos
 
 En caso de ser necesario podemos retroceder esta marca, usando la opción **Desconfirmar hoteles** de ese mismo botón, también trabajaremos únicamente con los hoteles seleccionados en la pantalla.
 
+### Crear Cabeceras de reserva
+
+Este es el proceso que genera, a partir de las reservas de circuito, las reservas para el resto de módulos, como requisito previo tenemos que haber marcado como confirmados los hoteles del circuito. Para ejecutarlo usaremos la opcion **Generar Cabeceras (F11)** del botón circuitos que tenemos en la lista de circuitos y en la ficha de circuito. Si lo hacemos desde la lista podemos seleccionar varios circuitos antes de ejecutar la accion. Recordad que después hay que ir al modulo **Reservas** para ejecutar la opción **Generar detalle** para completar el traspaso a los módulos de hotel y transfer.
+
 ### Generar bonos cliente
 
-Desde la lista de los hoteles podemos generar el bono para que el guia lo entregue en el hotel como justificante del servicio. 
+Desde la lista de los hoteles podemos generar el bono para que el guia lo entregue en el hotel, como justificante del servicio. Como requisito previo tenemos se tienen que haber generado las reservas de hotel. Para hacerlo usaremos la opción **Generar bonos cliente** del botón **Hoteles**, esta acción trabaja con los hoteles seleccionados en la pantalla. A continuación un ejemplo de estos bonos.
+
+![alt text](.\images\BonoClienteHotel.png)
+
+### Imprimir Documentacion circuito
+
+La documentación del circuito son los bonos para el resto de los servicios asociados al circuito, excepto aquellos marcados como **Servicio prepagado**. Para imprimirla tenemos dos opciones:
+
+* La acción **Imprimir documentacion** que tenemos en la consulta de cálculo de los circuitos.
+* Imprimir la documentación al terminar el proceso de cálculo del circuito. El programa nos preguntará si queremos hacerlo.
+
+El impreso muestra un resumen de la información de los servicios asociados al circuito y sus costes, a continuación un bono para cada servicio, como el que podemos ver de ejemplo a continuacion:
+
+![alt text](.\Images\BonoServiciosCircuito.png)
+
