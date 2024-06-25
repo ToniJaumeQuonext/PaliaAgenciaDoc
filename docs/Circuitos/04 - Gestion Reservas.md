@@ -65,3 +65,19 @@ Una vez hemos seleccionado las reservas, tenemos que usar la opción **Añadir a
 ### Sacar reservas de un circuito
 
 Si se han asignado incorrectamente reservas a un circuito tenemos la posiblidad de sacarlas del circuito, en primer lugar tenemos que seleccionar las reservas con las que vamos a trabajar, para hacerlo tenemos que poner en cuadrante en modo Asignado, como hemos visto antes, después tenemos que navegar, con **F6**, al detalle de las reservas y marcar las reservas que queremos sacar del circuito, a continuación tenemos que usar la opción **Sacar de circuito** del botón **Acciones**. 
+
+### Importación masiva documentos identidad
+
+El número de documento es un dato importante a la hora de hacer las reservas de los monumentos, es posible que, en ocasiones, no tengamos ese dato en el momento de introducir de la pre-reserva en el sistema, es por eso que hay un sistema para introducir este dato de manera masiva en el sistema. Lo primero que tenemos que hacer es ir a la lista de Circuitos y **Generar Excel pasajero** que va a crear una hoja excel con todos los pasajeros del circuito, luego podemos utilizar la opción **Importar Excel pasajeros** para recuperar los datos introducidos en el fichero, solo se importará la columna D y se utilizará la columna A para encontrar la reserva que se debe actualizar, es muy importante que no se añadan ni eliminen filas ni columnas de la plantilla generada por el sistema.
+
+### Asignar extras
+
+Cuando se necesite asignar un ingreso extra de un touroperador tenemos que ir a la ficha del circuito y usar la opción **Extras circuito** del botón **Paxes TO**, al hacerlo se abre la lista de extras del touroperador sobre el que está el cursor:
+
+![alt text](.\images\ExtraTouroperador.png)
+
+* **Cod. Extra**, tenemos que haberlo dado de alta como codigo de extra en **Codigos circuito**.
+* **Fecha aplicacion**, dia en que queremos que se impute el ingreso
+* **Paxes**, cantidad de personas afectadas por el extra
+* **Importe manual**, es el precio por persona que sobre escribe el precio que pueda tener el extra en la tarifa del Touroperador
+
