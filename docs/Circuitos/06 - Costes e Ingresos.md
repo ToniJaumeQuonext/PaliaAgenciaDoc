@@ -43,6 +43,6 @@ Al lanzar este proceso, el programa va a comprobar que el circuito tenga asignad
 
 ![alt text](.\images\DatosCrearPrefactura.png)
 
-El circuito se puede dejar en blanco para facturar todos los ingresos de un periodo, de un touroperador. Al terminar el proceso de crear la prefactura se lanza automáticamente la impresión. La reimpresión de una prefactura solo puede hacerse si aun no se ha facturado.
+El circuito se puede dejar en blanco para facturar todos los ingresos de un periodo, de un touroperador. Al terminar el proceso de crear la prefactura se lanza automáticamente la impresión. La reimpresión de una prefactura solo puede hacerse si el ingreso aun no se ha facturado.
 
 El proceso de facturación solicita al usuario que confirme el número de prefactura y el código de departamento para la contabilidad, genera un documento de venta que será una factura o un abono en función del importe total de las lineas incluidas, se creá una linea de factura por cada línea de ingreso que vemos en la consulta de facturación detallando también los extras. Este proceso va a lanzar también el proceso de generación del asiento de previsión de coste para los costes de los circuitos incluidos en la factura. Al terminar se pide al usuario si quiere añadir comentarios antes de imprimir la factura o generar el PDF (en función del parámetro **Generar PDF Factura**). Las lineas de ingreso quedan asociadas a la factura de venta 
