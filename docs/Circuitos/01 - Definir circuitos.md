@@ -1,6 +1,6 @@
 # Definir maestro circuitos
 
-El circuito es la unidad básica de este módulo, su definición permitirá conocer los costes de cada una de las salidas de ellos. Las reservas se asocian a un circuito y estos códigos sirven de base para las tarifas de venta de los touroperadores.
+El circuito es la unidad básica de este módulo, cada circuito está relacionado un código de circuito, su definición permitirá conocer los costes de cada una de las salidas de ellos. Las reservas se asocian a un circuito y estos códigos sirven de base para las tarifas de venta de los touroperadores.
 
 ## Crear circuito
 
