@@ -44,9 +44,9 @@ Cuando el usuario quiere revisar todas las condiciones asociadas a un circuito p
 
 En la definición de las prestaciones hemos visto que algunas requieren de un código adicional, estos códigos se mantienen en **Circuitos - Configuración - Codigos circuito**, se abrirá una lista para crear, modificar o borrar esos códigos. Antes de abrir la lista el programa nos pedirá que tipo de código queremos crear:
 
-![alt text](.\images\TipoCodigo.png)
+![alt text](./images/TipoCodigo.png)
 
-![alt text](.\images\ListaCodigosCircuito.png)
+![alt text](./images/ListaCodigosCircuito.png)
 
 El programa no va a permitir borrar un código de circuitos que esté en uso en una prestación de circuitos.
 
