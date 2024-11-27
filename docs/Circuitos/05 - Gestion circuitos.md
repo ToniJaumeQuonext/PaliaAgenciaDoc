@@ -2,7 +2,7 @@
 
 Una vez se han asignado las reservas a la salida del circuito comienza su gestión operativa, vamos a empezar en la opción **Circuitos** de la carpeta **Circuitos**.
 
-![alt text](.\images\ListaCircuitos.png)
+![alt text](./images/ListaCircuitos.png)
 
 Con la opción **Ficha** vamos a poder ver todo el detalle del registro sobre el que está el cursor y consultar el estado de las distintas acciones que tenemos que ejecutar con cada circuito.
 
@@ -10,7 +10,7 @@ Con la opción **Ficha** vamos a poder ver todo el detalle del registro sobre el
 
 Cuando se asignan reservas a un circuito se crea una copia de los hoteles definidos en la tarifa de venta del touroperador de esas reservas [Hoteles Tarifa](02%20-%20Tarifas%20venta.md#HotelesTarifaVenta). Esta información la vamos poder gestionar desde la opción **Hoteles** del botón **Circuitos**.
 
-![alt text](.\images\ListaHotelesCircuito.png)
+![alt text](./images/ListaHotelesCircuito.png)
 
 La columna **Hotel** será la única información que podremos cambiar en esta consulta para poder utilizar un hotel diferente al programado inicialmente, cuando se cambie se va a marcar la columna **Modificado manual**. En la lista de hoteles tenemos la opción Ficha para poder ver en detalle el estado cada uno de los hoteles
 
@@ -36,7 +36,7 @@ Este es el proceso que genera, a partir de las reservas de circuito, las reserva
 
 Desde la lista de los hoteles podemos generar el bono para que el guia lo entregue en el hotel, como justificante del servicio. Como requisito previo tenemos se tienen que haber generado las reservas de hotel. Para hacerlo usaremos la opción **Generar bonos cliente** del botón **Hoteles**, esta acción trabaja con los hoteles seleccionados en la pantalla. A continuación un ejemplo de estos bonos.
 
-![alt text](.\images\BonoClienteHotel.png)
+![alt text](./images/BonoClienteHotel.png)
 
 ## Imprimir Documentacion circuito
 
@@ -47,7 +47,7 @@ La documentación del circuito consiste en la impresión de los bonos para el re
 
 El impreso muestra un resumen de la información de los servicios asociados al circuito y sus costes, a continuación un bono para cada servicio, como el que podemos ver de ejemplo a continuacion:
 
-![alt text](.\images\BonoServiciosCircuito.png)
+![alt text](./images/BonoServiciosCircuito.png)
 
 Una vez impresa la documentación, el circuito queda marcado **Documentacion emitida** y se rellena la fecha de emisión. Si se modifica la fecha de salida del circuito se desmarca el circuito para que el usuario sepa que tiene que volver a imprimir la documentación con las fechas correctas.
 
@@ -55,7 +55,7 @@ Una vez impresa la documentación, el circuito queda marcado **Documentacion emi
 
 El programa dispone de una herramienta para notificar todos los servicios de la semana a los proveedores asociados a los circuitos, para generar este notificación tenemos que usar la opción **Notificar semana proveedores** que está en el botón **Circuitos** de la lista de circuitos. El proceso nos pedirá la fecha de salida de los circuitos que debe tener en cuenta y genera un fichero que se tratará de enviar por correo al proveedor, a continuación, un ejemplo:
 
-![alt text](.\images\NotificacionSemanalProveedor.png)
+![alt text](./images/NotificacionSemanalProveedor.png)
 
 Solo se enviarán notificaciones de los servicios que no estén marcados como **Servicio prepagado**. En caso de poderse enviar la notificación, porque el proveedor no tenga correo o porque el servicio de correo no esté configurado, se va a guardar el fichero excel en una carpeta indicada en los parametros de circuitos. En todo caso, el circuito queda marcado y se puede ver la fecha y hora que ha ejecutado está acción.
 
@@ -63,7 +63,7 @@ Solo se enviarán notificaciones de los servicios que no estén marcados como **
 
 Para poder asignar el guia acompañante del circuito podemos usar la acción **Asignar Guia Acompañante** del botón **Circuitos** de la ficha del circuito. Esta acción abre la siguiente ficha:
 
-![alt text](.\images\FichaAsignarGuiaCircuito.png)
+![alt text](./images/FichaAsignarGuiaCircuito.png)
 
 * **Efectivo guia** es el importe calculado por el programa de las prestaciones donde se ha indicado Efectivo. Este campo se rellena con el proceso de cálculo, por lo que, antes de poder asignar el guia, debemos haber calculado el circuito, al menos una vez.
 * **Guia efectivo** será el proveedor relacionado con el guía acompañante.
@@ -74,7 +74,7 @@ El proceso genera la linea de coste en efectivo que, más adelante, podremos val
 
 En el menu de Circuitos se ha incluido una opción **Prestaciones por dia** que los usuarios pueden utilizar para tener una visión de los servicios que requieren compra anticipada, al abrirse, la lista tiene un filtro para que nos muestre las prestaciones con fecha de operacion en dos semanas a partir de hoy. Esta consulta nos muestra los datos informativos del servicio, que hemos introducido en la definición del circuito y permite rellenar los datos correspondientes a cada compra de entradas:
 
-![alt text](.\images\ListaServiciosSemana.png)
+![alt text](./images/ListaServiciosSemana.png)
 
 * **Entradas compradas**, cantidad de entradas que se utilizará a la hora de calcular el coste del servicio.
 * **Fecha compra**, día de la compra, se puede utilizar para facilitar el cuadre de las tarjetas de crédito.

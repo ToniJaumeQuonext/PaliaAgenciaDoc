@@ -3,7 +3,7 @@
 ## Calculo de circuitos
 Desde el momento en que se crea una salida de un circuito el sistema nos permite lanzar el proceso de cálculo para comprobar los ingresos y costes del circuito. Para hacerlo tenemos ir a la opción **Calculo** del menu **Circuitos**.
 
-![alt text](.\images\ListaCalculoCircuitos.png)
+![alt text](./images/ListaCalculoCircuitos.png)
 
 En esta consulta tenemos varias opciones que vamos a comentar:
 
@@ -25,7 +25,7 @@ En esta consulta tenemos varias opciones que vamos a comentar:
 
 Cuando hemos calculado el circuito se generan las lineas de detalle para servir de base al proceso de facturacion. 
 
-![alt text](.\images\FacturarIngresos.png)
+![alt text](./images/FacturarIngresos.png)
 
 En esta consulta tenemos varias opciones que vamos a comentar:
 
@@ -41,7 +41,7 @@ En esta consulta tenemos varias opciones que vamos a comentar:
 
 Al lanzar este proceso, el programa va a comprobar que el circuito tenga asignado un guia de efectivo, en caso contrario nos pedirá confirmación antes de continuar. Si el circuito está pendiente de cálculo se mostrará un mensaje de error. El primer paso es escoger entre Facturar o PreFacturar, sabiendo que es necesario crear primero la prefactura. Al escoger prefacturar, el programa nos pide si queremos crear una nueva prefactura o reimprimir una prefactura ya existente. Al crear una prefactura sale una ventana para introducir los datos de filtrado:
 
-![alt text](.\images\DatosCrearPrefactura.png)
+![alt text](./images/DatosCrearPrefactura.png)
 
 El circuito se puede dejar en blanco para facturar todos los ingresos de un periodo, de un touroperador. Al terminar el proceso de crear la prefactura se lanza automáticamente la impresión. La reimpresión de una prefactura solo puede hacerse si el ingreso aun no se ha facturado.
 

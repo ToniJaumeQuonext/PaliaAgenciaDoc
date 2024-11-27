@@ -2,9 +2,9 @@
 
 Estas tarifas son las condiciones y precios de compra de cada proveedor para los circuitos. Las tarifas las vamos a encontrar en **Circuitos - Tarifas compra** esta opción abre la lista de tarifas, para trabajar con la información de una tarifa tendremos que abrir la ficha. Antes de abrirse el programa nos va a pedir con que tipo de proveedor queremos trabajar:
 
-![alt text](.\images\TiposdeProveedor.png)
+![alt text](./images/TiposdeProveedor.png)
 
-![alt text](.\images\FichaTarifaCompra.png)
+![alt text](./images/FichaTarifaCompra.png)
 
 Cuando creemos una tarifa nueva, la delegación y el número de tarifa se asignan automáticamente.
 
@@ -27,7 +27,7 @@ En la tarifa se definen los precios de compra que aplican a los servicios presta
 
 ### Transportistas
 
-![alt text](.\images\PreciosCompraTransportista.png)
+![alt text](./images/PreciosCompraTransportista.png)
 
 - **Periodo de fechas**, todo precio debe tener un periodo de fechas y ese periodo debe estar dentro de la vigencia de la tarifa.
 - **Rango de personas**, podemos crear diferentes precios en base a la cantidad de personas que vayan en el circuito. 
@@ -39,7 +39,7 @@ El campo **Activo** se mantiene automáticamente mientras se introduce la inform
 
 ### Restaurantes
 
-![alt text](.\images\PreciosCompraRestaurante.png)
+![alt text](./images/PreciosCompraRestaurante.png)
 
 - **Menu**, código de servicio del precio. Relacionado con el código que se asigna a las prestaciones de los circuitos.
 - **Periodo de fechas**, todo precio debe tener un periodo de fechas y ese periodo debe estar dentro de la vigencia de la tarifa.
@@ -53,7 +53,7 @@ El campo **Activo** se mantiene automáticamente mientras se introduce la inform
 
 ### Visitas 
 
-![alt text](.\images\PreciosCompraVisita.png)
+![alt text](./images/PreciosCompraVisita.png)
 
 - **Visita**, código de servicio del precio. Relacionado con el código que se asigna a las prestaciones de los circuitos.
 - **Periodo de fechas**, todo precio debe tener un periodo de fechas y ese periodo debe estar dentro de la vigencia de la tarifa.
@@ -66,7 +66,7 @@ El campo **Activo** se mantiene automáticamente mientras se introduce la inform
 
 ### Guias acompañantes y oficiales
 
-![alt text](.\images\PreciosCompraGuiaAcom.png)
+![alt text](./images/PreciosCompraGuiaAcom.png)
 
 - **Periodo de fechas**, todo precio debe tener un periodo de fechas y ese periodo debe estar dentro de la vigencia de la tarifa.
 - **Rango de personas**, podemos crear diferentes precios en base a la cantidad de personas que vayan en el circuito. 
@@ -80,7 +80,7 @@ El campo **Activo** se mantiene automáticamente mientras se introduce la inform
 
 Estos precios se aplican a las prestaciones con tipo de proveedor Extra. No confundir con los extras dentro de algunas tarifas de compra.
 
-![alt text](.\images\PreciosCompraExtras.png)
+![alt text](./images/PreciosCompraExtras.png)
 
 - **Periodo de fechas**, todo precio debe tener un periodo de fechas y ese periodo debe estar dentro de la vigencia de la tarifa.
 - **Rango de personas**, podemos crear diferentes precios en base a la cantidad de personas que vayan en el circuito. 
@@ -94,7 +94,7 @@ El campo **Activo** se mantiene automáticamente mientras se introduce la inform
 
 En caso de que existan costes por conceptos extra se pueden definir sus precios en la opción **Extras** del botón **Tarifas Compra**. Si hay extras definidos en la tarifa, se aplicarán automáticamente sin necesidad de indicar nada en el circuito. Solo las tarifas de Restaurantes y Visitas tienen la opción de definir extras
 
-![alt text](.\images\ExtrasTarifasCompra.png)
+![alt text](./images/ExtrasTarifasCompra.png)
 
 - **Codigo**, código del extra del precio.
 - **Periodo de fechas**, todo precio debe tener un periodo de fechas y ese periodo debe estar dentro de la vigencia de la tarifa.

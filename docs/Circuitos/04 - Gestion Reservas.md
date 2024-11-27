@@ -4,7 +4,7 @@
 
 Cuando el touroperador envia la información, de una reserva de circuitos, la creamos dentro de circuitos como una pre-reserva, estas pre-reservas se irán numerando automáticamente y sirven de base para la creación de las reservas del módulo de circuito, estas reservas se asignan a las salidas de los circuitos.
 
-![alt text](.\images\ListaPrereservas.png)
+![alt text](./images/ListaPrereservas.png)
 
 - **Touroperador**, para facilitar la selección de los touroperadores, se ha añadido un nuevo campo en la ficha de los touroperadores para indicar si trabaja con circuitos.
 - **Localizador touroperador**, número de dossier de los clientes, este datos viajará a las reservas de los módulos de transfer y hotel para facilitar la identificacion de los pasajeros.
@@ -22,7 +22,7 @@ Cuando el touroperador envia la información, de una reserva de circuitos, la cr
 
 Como hemos comentado, al indicar la cantidad de pasajeros en la pre-reserva, se crean los registros de las reservas de circuito donde vamos a poder añadir alguna información que es propia de cada persona. Desde la lista que se abre el usuario tiene la opción de abrir la ficha para ver la información más en detalle.
 
-![alt text](.\images\ListaReservas.png)
+![alt text](./images/ListaReservas.png)
 
 - **Nombre completo**, este campo lo vamos a descomponer en dos campos (ocultos por defecto) Nomrbre y Apellido, para que esto funcione bien, el nombre debemos indicarlo siempre en el mismo formato: APELLIDOS NOMBRE o APELLIDOS, NOMBRE.
 - **Num. Documento identificación**, número de pasaporte o documento nacional de identidad.
@@ -37,7 +37,7 @@ El cuadrante tiene dos opciones, para ver los clientes pendientes de asignar o l
 
 En la parte superior de la consulta el usuario puede establecer filtros de fecha de inicio del circuito y de tipos de habitación para limitar la cantidad de reservas que se suman en los cruces entre touroperador y categoria.
 
-![alt text](.\images\CuadranteCircuitos.png)
+![alt text](./images/CuadranteCircuitos.png)
 
 ### Crear salida circuito
 
@@ -74,7 +74,7 @@ El número de documento es un dato importante a la hora de hacer las reservas de
 
 Cuando se necesite asignar un ingreso extra de un touroperador tenemos que ir a la ficha del circuito y usar la opción **Extras circuito** del botón **Paxes TO**, al hacerlo se abre la lista de extras del touroperador sobre el que está el cursor:
 
-![alt text](.\images\ExtraTouroperador.png)
+![alt text](./images/ExtraTouroperador.png)
 
 * **Cod. Extra**, tenemos que haberlo dado de alta como codigo de extra en **Codigos circuito**.
 * **Fecha aplicacion**, dia en que queremos que se impute el ingreso

@@ -6,7 +6,7 @@ El circuito es la unidad básica de este módulo, cada circuito está relacionad
 
 Para crear un circuito iremos a **Circuitos - Configuración - Maestro circuitos**, se abre la lista de circuitos donde podemos crear un nuevo código, para terminar completar la definición tenemos que bajar a la ficha:
 
-![alt text](.\images\FichaCircuito.png)
+![alt text](images/FichaCircuito.png)
 
 A la hora de definir el circuito debemos tener en cuenta lo siguiente:
 
@@ -19,7 +19,7 @@ El programa no va a permitir borrar un código maestro de circuitos que ya se ha
 
 Las prestaciones representan los costes asociados al circuito, así como el itinerario que va a tener.
 
-![alt text](.\images\PrestacionesCircuito.png)
+![alt text](./images/PrestacionesCircuito.png)
 
 La definición de cada prestación contiene la siguiente información:
 
@@ -44,9 +44,9 @@ Cuando el usuario quiere revisar todas las condiciones asociadas a un circuito p
 
 En la definición de las prestaciones hemos visto que algunas requieren de un código adicional, estos códigos se mantienen en **Circuitos - Configuración - Codigos circuito**, se abrirá una lista para crear, modificar o borrar esos códigos. Antes de abrir la lista el programa nos pedirá que tipo de código queremos crear:
 
-![alt text](.\images\TipoCodigo.png)
+![alt text](./images/TipoCodigo.png)
 
-![alt text](.\images\ListaCodigosCircuito.png)
+![alt text](./images/ListaCodigosCircuito.png)
 
 El programa no va a permitir borrar un código de circuitos que esté en uso en una prestación de circuitos.
 
