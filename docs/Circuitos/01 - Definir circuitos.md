@@ -11,7 +11,7 @@ Para crear un circuito iremos a **Circuitos - Configuración - Maestro circuitos
 A la hora de definir el circuito debemos tener en cuenta lo siguiente:
 
 - El código no se debe dejar en blanco, teniendo en cuenta que solo contamos con 10 caracteres no se recomienda dejar espacios en blanco, es mejor usar solo letras y números.
-- La marca de **Fly Drive** tiene un efectivo estadístico.
+- La marca de **Fly Drive** tiene un efecto estadístico.
 
 El programa no va a permitir borrar un código maestro de circuitos que ya se haya utilizado.
 
@@ -23,7 +23,7 @@ Las prestaciones representan los costes asociados al circuito, así como el itin
 
 La definición de cada prestación contiene la siguiente información:
 
-- **Tipo proveedor**, es el indicativo del tipo de coste que usaremos para encontrar la tarifa y para seleccionar en la validación de los costes.
+- **Tipo proveedor**, es el indicativo del tipo de coste que usaremos para encontrar la tarifa y para seleccionar en la validación de los costes.****
 - **Tarifa**, a trave de la tarifa vamos a asociar el coste al proveedor de contabilidad y definir los precios que aplicarán en el circuito.
 - **Codigo**, en las prestaciones de los restaurantes o de las visitas, es el código del servicio solicitado al proveedor.
 - **Dia inicio**, referencia para obtener la fecha del servicio, a partir de la fecha de salida del circuito (1 para el primer día del circuito). 
