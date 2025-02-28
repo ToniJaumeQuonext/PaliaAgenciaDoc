@@ -16,7 +16,7 @@ La columna **Hotel** será la única información que podremos cambiar en esta c
 
 ### Generar rooming previo
 
-Desde la lista de hoteles podemos generar un listado rooming previo para todos los hoteles del circuito, usando la opción **Generar listado** del botón **Hoteles**, al ejecutarla se va a crear un fichero excel para cada hotel, si se configura el servidor de SMTP esos ficheros se enviarán a la dirección de correo electrónica configurada en la ficha del hotel. Los ficheros se almacenarán en la carpeta definida en el campo **Carpeta ficheros** de los parámetros de circuito, el nombre del fichero se comprondrá con circuito más el código interno más la fecha y hora de creación.
+Desde la lista de hoteles podemos generar un listado rooming previo para todos los hoteles del circuito, usando la opción **Generar rooming previa** del botón **Hoteles**, al ejecutarla se va a crear un fichero excel para cada hotel, si se configura el servidor de SMTP esos ficheros se enviarán a la dirección de correo electrónica configurada en la ficha del hotel. Los ficheros se almacenarán en la carpeta definida en el campo **Carpeta ficheros** de los parámetros de circuito, el nombre del fichero se comprondrá con circuito más el código interno más la fecha y hora de creación.
 
 ![alt text](images\EjemploRoomingPrevioHotel.png)
 
